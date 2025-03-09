@@ -9,6 +9,18 @@ test.skip('alert diolog handle', async ({ page }) => {
   
 })
 test.only('handle dropdown ',  async ({page}) =>{
+
+
+  // Wait for the new page to open
+  const newPagePromise = context.waitForEvent('page'); 
+  //await page.click('text=Open New Tab');
+  const newPage = await newPagePromise;
+
+// const browser = await chromium.launch();
+//  const context = await browser.newContext();
+//   const page = await context.newPage();
+//In Playwright, the await keyword is used to pause the execution of a script until an asynchronous operation is complete.
+   tag: '@smoke'//taggin concetp
    await  page.goto('https://www.facebook.com/r.php')
    await expect(page).toHaveURL('https://www.facebook.com/r.php')
    const fbimge= await page.locator("//div[@class='_9bp-']/img")
