@@ -1,7 +1,11 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
 
+<<<<<<< HEAD
 test('i love to find title', async ({ page }) => {
+=======
+test('it has title validation', async ({ page }) => {
+>>>>>>> e141f0099b9548fa16e294226a5838939cd4571b
   await page.goto('https://playwright.dev/');
 
   // Expect a title "to contain" a substring.
