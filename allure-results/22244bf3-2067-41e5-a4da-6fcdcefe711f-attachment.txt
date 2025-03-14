@@ -1,0 +1,5 @@
+[
+  { ID: '1', userName: 'standard_user', password: 'secret_sauce' },
+  { ID: '2', userName: 'standard_user', password: 'secret_sauce' },
+  { ID: '3', userName: 'standard_user', password: 'secret_sauce' }
+]

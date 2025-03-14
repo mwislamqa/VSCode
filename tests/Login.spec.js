@@ -2,7 +2,7 @@ const {test,expect}= require('@playwright/test')
 import { Console } from 'console'
 import {data} from '../e2e/data/loginData.json'
 
-test('login to the app', async ({page}) =>{
+test.only('login to the app', async ({page}) =>{
    
 await page.goto(process.env.URL)
 //await page.locator('#user-name').fill(data.userName)
@@ -12,10 +12,9 @@ await page.locator('#password').fill(process.env.password)//process.env.USER_PAS
 await page.click('#login-button')
 await page.waitForTimeout(4000)
 console.log(process.env.password)
+//await page.pause() // user for recode the code 
 
 })
-
-
 
 //multi element handle 
 test('multi webElemnt ', async ({page})=>{

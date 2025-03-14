@@ -1,21 +1,21 @@
-const {test, expect}=require('@playwright/test')
+const { test, expect } = require('@playwright/test')
 import { chromium } from 'playwright';
 
 
-test('multi window ',async  () => {
- const browser = await chromium.launch();
- const context = await browser.newContext();
+test('multi window ', async () => {
+  const browser = await chromium.launch();
+  const context = await browser.newContext();
   const page = await context.newPage();
 
   await page.goto('https://www.hyrtutorials.com/p/window-handles-practice.html');
-  const titlfrontpage= await page.title();
+  const titlfrontpage = await page.title();
   console.log(`homepage title::${titlfrontpage}`)
 
   // Click a link that opens a new tab
   await page.click('id=newWindowBtn');
 
   // Wait for the new page to open
-  const newPagePromise = context.waitForEvent('page'); 
+  const newPagePromise = context.waitForEvent('page');
   //await page.click('text=Open New Tab');
   const newPage = await newPagePromise;
 
@@ -26,17 +26,17 @@ test('multi window ',async  () => {
 
   // Switch back to the original page
   await page.bringToFront();
- 
+
 
   // Close the new page
   await newPage.close();
-  
-  const titleofOrgPage= await page.title();
+
+  const titleofOrgPage = await page.title();
   console.log(`homepage title::${titleofOrgPage}`)
   await page.click('id=newWindowBtn');
   await page.waitForTimeout(5000)
 
-  
+
 
   await browser.close();
 })
