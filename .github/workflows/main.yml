@@ -1,6 +1,6 @@
 name: Playwright Tests
 on:
-  worflow_dispatch:
+  
   schedule:
     - cron: '30 5 * * 1-5'
   push:
