@@ -28,6 +28,7 @@ test('multi window ', async () => {
   await page.bringToFront();
 
 
+
   // Close the new page
   await newPage.close();
 

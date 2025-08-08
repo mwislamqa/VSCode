@@ -7,7 +7,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 //import dotenv from 'dotenv';//for env veriable call
 //import path from 'path';
-require('dotenv').config()
+//require('dotenv').config()
 //dotenv.config({ 
  // path: `./env/.${process.env.ENV}`
 // });
@@ -17,6 +17,7 @@ require('dotenv').config()
  */
 export default defineConfig({
   testDir: './tests',
+  timeout: 30 * 1000,
   /* Run tests in files in parallel */
   fullyParallel: true,
   //reporter: './my-awesome-reporter.js',
@@ -39,6 +40,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+    screenshot: 'only-on-failure'
   },
 
   /* Configure projects for major browsers */

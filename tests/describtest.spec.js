@@ -13,11 +13,13 @@ test.describe('my login test', () => {
         page.close()
     })
 
-    test('First test -add to the cart', async ({ page }) => {
-        await page.click('#add-to-cart-sauce-labs-backpack')
+    test.only('First test -add to the cart', async ({ page }) => {
+        //combind tow elements in one locator using and ,or 
+        await page.locator('#add-to-cart-sauce-labs-backpack')
+        .or(page.locator("[name='add-to-cart-sauce-labs-backpack']")).click()
     })
 
-    test('Second test -remove to the cart', async ({ page }) => {
+    test('Second test -remove to the cart',{tag: '@smoke'}, async ({ page }) => {
         await page.click('#add-to-cart-sauce-labs-backpack')
         await page.waitForTimeout(4000)
         await page.click('#remove-sauce-labs-backpack')

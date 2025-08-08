@@ -5,16 +5,12 @@ import { parse } from 'csv-parse/sync';
 
 //npm install --save csv-parse    need to install
 const records = parse(
-
     fs.readFileSync('e2e/data/userData.csv'),
-
     {
         columns: true,
         skip_empty_lines: true
     }
-
 )
-
 // for each loop
 records.forEach((record) => {
 

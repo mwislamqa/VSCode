@@ -18,6 +18,7 @@ test('alert diolog handle', async () => {
        // expect(text).toEqual('Do you really want to delete this Customer?')
 
      await dialog.accept()
+     //await dialog.dismiss()
 
      await expect(page).toHaveURL('https://demo.guru99.com/test/delete_customer.php');
        
