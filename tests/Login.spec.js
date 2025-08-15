@@ -2,7 +2,7 @@ const {test,expect}= require('@playwright/test')
 import { Console } from 'console'
 import {data} from '../e2e/data/loginData.json'
 
-test.only('login to the app', async ({page}) =>{
+test('login to the app', async ({page}) =>{
    
 await page.goto(process.env.URL)
 //await page.locator('#user-name').fill(data.userName)

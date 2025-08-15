@@ -17,7 +17,7 @@ await page.locator('').click({button: 'up'})
 
 await page.locator('').click({button: 'down'})
 /// bouble click
-await page.locator().dblclick();
+await page.locator("").dblclick();
 
 
 })
