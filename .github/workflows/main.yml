@@ -1,7 +1,8 @@
 name: Playwright Tests
 on:
   
-  schedule:
+  schedule: 
+    - cron: '0 0 * * 0'  # Runs at 00:00 every Sunday
    
   push:
     branches: [ main, master ]

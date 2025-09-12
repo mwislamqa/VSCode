@@ -18,6 +18,8 @@ await page.locator('').click({button: 'up'})
 await page.locator('').click({button: 'down'})
 /// bouble click
 await page.locator("").dblclick();
+//hidden element click
+await page.locator('').click({force:true})
 
 
 })

@@ -1,0 +1,72 @@
+[
+  {
+    id: 8070026,
+    name: 'Jimob15a0cb7ep',
+    email: 'Miller9@gmail.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8067984,
+    name: 'Bhaasvan Shah',
+    email: 'shah_bhaasvan@cummerata.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8067983,
+    name: 'Tanushri Bhat VM',
+    email: 'vm_tanushri_bhat@will-kunde.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8067982,
+    name: 'Jyotis Dwivedi',
+    email: 'dwivedi_jyotis@wyman.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8067981,
+    name: 'Triloki Nath Kapoor',
+    email: 'nath_triloki_kapoor@spencer.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8067980,
+    name: 'Shakti Trivedi',
+    email: 'trivedi_shakti@pollich-beatty.test',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8067979,
+    name: 'Kama Jain',
+    email: 'jain_kama@maggio-heller.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8067978,
+    name: 'Tejas Mehra',
+    email: 'tejas_mehra@grady-rosenbaum.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8067977,
+    name: 'Hiranya Iyer',
+    email: 'hiranya_iyer@harris.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8067976,
+    name: 'Dr. Kashyap Talwar',
+    email: 'dr_kashyap_talwar@schamberger.example',
+    gender: 'male',
+    status: 'inactive'
+  }
+]

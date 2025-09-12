@@ -1,0 +1,72 @@
+[
+  {
+    id: 8113253,
+    name: 'Param Dubashi',
+    email: 'param_dubashi@jones.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8113251,
+    name: 'Karthik Ganaka',
+    email: 'karthik_ganaka@wiza.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8113250,
+    name: 'Arindam Kakkar',
+    email: 'kakkar_arindam@luettgen.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8113249,
+    name: 'Meghnath Gandhi',
+    email: 'gandhi_meghnath@weber-stark.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8113248,
+    name: 'Rep. Balaaditya Kaul',
+    email: 'kaul_rep_balaaditya@wintheiser-gottlieb.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8113247,
+    name: 'Chandramauli Iyengar',
+    email: 'chandramauli_iyengar@shields.test',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8113245,
+    name: 'Gov. Karan Singh',
+    email: 'karan_singh_gov@keebler.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8113244,
+    name: 'Chetanaanand Asan',
+    email: 'asan_chetanaanand@kassulke.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8113243,
+    name: 'Rep. Lakshmidhar Deshpande',
+    email: 'lakshmidhar_rep_deshpande@mccullough-weimann.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8113241,
+    name: 'Dhananjay Iyer LLD',
+    email: 'dhananjay_iyer_lld@mclaughlin.example',
+    gender: 'female',
+    status: 'inactive'
+  }
+]
