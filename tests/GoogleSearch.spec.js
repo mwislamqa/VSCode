@@ -1,22 +1,27 @@
-const {test, expect}= require('@playwright/test')
+const { test, expect } = require('@playwright/test')
 
 //page size
 test.use({
-    viewport: { width: 1500, height: 1200 },
-    colorScheme: 'light' 
-  });
+  viewport: { width: 1500, height: 1200 },
+  colorScheme: 'light'
+});
 
-test('google search', async ({page}) =>{
+test('google search', async ({ page }) => {
 
-    await page.goto('https://www.google.com/')//https://www.google.com/
-   // await page.pause()
-    const locator =await page.locator('[name=q]').fill("selenium")
-    await page.waitForTimeout(2000)
-    await page.page.locator('[name=q]').press("Enter");
+  await page.goto('https://www.google.com/')//https://www.google.com/
+  // await page.pause()
+  // const search =await page.locator('[name=q]').fill("selenium")
+  // await page.waitForTimeout(2000)
+  // await page.search.press("Enter");
 
-    await page.waitForTimeout(2000)
-    //await  locator.fill('Enter')
+  // await page.waitForTimeout(2000)
+  // //await  locator.fill('Enter')
+   
+  await page.goto('https://www.google.com/');
 
-    
+  await page.getByRole('combobox', { name: 'Search' }).fill('playwright test');
+   await page.waitForTimeout(4000)
+  await page.locator('[name=q]').press("Enter")
+ 
 
 })
