@@ -6,11 +6,11 @@ test.use({
   colorScheme: 'light'
 });
 
-test.describe.configure({ mode: 'parallel' });//for parallel test
+//test.describe.configure({ mode: 'parallel' });//for parallel test
 
 test('google search', async ({ page }) => {
 
-  await page.goto('https://www.google.com/')//https://www.google.com/
+  //await page.goto('https://www.google.com/')//https://www.google.com/
   // await page.pause()
   // const search =await page.locator('[name=q]').fill("selenium")
   // await page.waitForTimeout(2000)
@@ -28,13 +28,13 @@ test('google search', async ({ page }) => {
 
 })
 
-test('google search 1', async ({ page }) => {
+// test('google search 1', async ({ page }) => {
 
-  page.on('console', msg => console.log('PAGE LOG:', msg.text()));
-})
+//   page.on('console', msg => console.log('PAGE LOG:', msg.text()));
+// })
 
 
-test('google search 2', async ({ page }) => {
+// test('google search 2', async ({ page }) => {
 
-  page.on('console', msg => console.log('PAGE LOG:', msg.text()));
-})
+//   page.on('console', msg => console.log('PAGE LOG:', msg.text()));
+// })

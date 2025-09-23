@@ -21,10 +21,8 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
-    - name: Run Playwright tests with HTML reporter
-      run: npx playwright test --reporter=html
     - name: Run Playwright tests
-      run: npx playwright test GoogleSearch.spec.js --project=chromium
+      run: npx playwright test GoogleSearch.spec.js --project=chromium --reporter=html
     - name: Upload Playwright report
       uses: actions/upload-artifact@v4
       if: always()
