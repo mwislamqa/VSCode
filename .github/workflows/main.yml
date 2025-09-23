@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        spec: [GoogleSearch.spec.js, takeScreenshot.spec.js, FlakyTest.spec.js]
+        spec: [tests/GoogleSearch.spec.js, tests/takeScreenshot.spec.js, tests/FlakyTest.spec.js]
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
