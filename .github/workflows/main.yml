@@ -21,14 +21,12 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
-    - name: Run Playwright tests with HTML report
-      run: npx playwright test --reporter=htm
     - name: Run Playwright tests
       run: npx playwright test GoogleSearch.spec.js --project=chromium
-    - name: Upload Playwright HTML report
-      if: always()
+    - name: Upload Playwright report
       uses: actions/upload-artifact@v4
+      if: always()
       with:
-        name: playwright-html-report
+        name: playwright-report
         path: playwright-report/
-        retention-days: 30
+        retention-days: 2
