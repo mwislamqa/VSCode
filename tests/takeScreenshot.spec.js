@@ -12,7 +12,7 @@ await page.screenshot({path: 'screenshots.png'})
 await page.screenshot({ path: 'screenshot.png', fullPage: true });
 
 //screenshot for element
-await page.locator('.header').screenshot({ path: 'screenshot.png' });
+await page.locator('[name=q]').screenshot({ path: 'screenshot.png' });
 
 })
 
