@@ -12,9 +12,9 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        spec: [tests/GoogleSearch.spec.js, tests/takeScreenshot.spec.js, tests/FlakyTest.spec.js]
+    # strategy:
+    #   matrix:
+    #     spec: [tests/GoogleSearch.spec.js, tests/takeScreenshot.spec.js, tests/FlakyTest.spec.js]
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
@@ -24,10 +24,10 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
-    # - name: Run Playwright tests
-    #   run: npx playwright test GoogleSearch.spec.js --project=chromium --reporter=html
-    - name: Run Playwright test for ${{ matrix.spec }}
-      run: npx playwright test ${{ matrix.spec }} --reporter=html
+    - name: Run Playwright tests
+      run: npx playwright test GoogleSearch.spec.js takeScreenshot.spec.js FlakyTest.spec.js --project=chromium --reporter=html
+    # - name: Run Playwright test for ${{ matrix.spec }}
+    #   run: npx playwright test ${{ matrix.spec }} --reporter=html
     - name: Upload Playwright report
       uses: actions/upload-artifact@v4
       if: always()
