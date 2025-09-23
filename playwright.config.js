@@ -5,12 +5,12 @@ import { defineConfig, devices } from '@playwright/test';
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-//import dotenv from 'dotenv';//for env veriable call
-//import path from 'path';
-//require('dotenv').config()
-//dotenv.config({ 
- // path: `./env/.${process.env.ENV}`
-// });
+import dotenv from 'dotenv';//for env veriable call
+import path from 'path';
+require('dotenv').config()
+dotenv.config({ 
+ path: `./env/.${process.env.ENV}`
+ });
 
 /**
  * @see https://playwright.dev/docs/test-configuration
@@ -19,7 +19,7 @@ export default defineConfig({
   testDir: './tests',
   timeout: 10 * 1000,
   /* Run tests in files in parallel */
-  fullyParallel: true,
+  fullyParallel: false,
   //reporter: './my-awesome-reporter.js',
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
@@ -27,8 +27,8 @@ export default defineConfig({
   //retries: process.env.CI ? 2 : 0,
   retries: 1,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
-  
+  workers: process.env.CI ? 2 : undefined,
+  //workers: 4,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   //reporter: 'html',
   reporter: [['html', { outputFolder: 'my-report' }],
@@ -46,10 +46,18 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
+
+    // {
+    //   name: 'google-chrome',
+    //   use: { 
+    //     channel: 'chrome'
+    //    }
+    // },
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
+  
 
     // {
     //   name: 'firefox',

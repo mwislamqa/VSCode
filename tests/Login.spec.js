@@ -17,7 +17,7 @@ console.log(process.env.password)
 })
 
 //multi element handle 
-test('multi webElemnt ', async ({page})=>{
+test.only('multi webElemnt ', async ({page})=>{
 
     await page.goto(process.env.URL)
     await page.fill('#user-name',data.userName)

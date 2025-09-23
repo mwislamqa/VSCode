@@ -1,0 +1,110 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "About" [ref=e4] [cursor=pointer]:
+      - /url: https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header
+    - link "Store" [ref=e5] [cursor=pointer]:
+      - /url: https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link "Gmail" [ref=e10] [cursor=pointer]:
+          - /url: https://mail.google.com/mail/&ogbl
+        - link "Search for Images" [ref=e12] [cursor=pointer]:
+          - /url: https://www.google.com/imghp?hl=en&ogbl
+          - text: Images
+      - button "Google apps" [ref=e15] [cursor=pointer]:
+        - img [ref=e16] [cursor=pointer]
+      - link "Sign in" [ref=e20] [cursor=pointer]:
+        - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+        - generic [ref=e21] [cursor=pointer]: Sign in
+  - img "Google" [ref=e24]
+  - search [ref=e32]:
+    - generic [ref=e34]:
+      - generic [ref=e36]:
+        - img [ref=e40]
+        - combobox "Search" [expanded] [active] [ref=e43]:
+          - text: playwright test
+          - listbox [ref=e45]:
+            - option "playwright testing" [ref=e49]:
+              - generic [ref=e50]:
+                - text: playwright test
+                - generic [ref=e51]: ing
+            - option "playwright testing tool" [ref=e55]:
+              - generic [ref=e56]:
+                - text: playwright test
+                - generic [ref=e57]: ing tool
+            - option "playwright test automation" [ref=e61]:
+              - generic [ref=e62]:
+                - text: playwright test
+                - generic [ref=e63]: automation
+            - option "playwright testing framework" [ref=e67]:
+              - generic [ref=e68]:
+                - text: playwright test
+                - generic [ref=e69]: ing framework
+            - option "playwright test.step" [ref=e73]:
+              - generic [ref=e74]:
+                - text: playwright test
+                - generic [ref=e75]: .step
+            - option "playwright test examples" [ref=e79]:
+              - generic [ref=e80]:
+                - text: playwright test
+                - generic [ref=e81]: examples
+            - option "playwright testing tutorial" [ref=e85]:
+              - generic [ref=e86]:
+                - text: playwright test
+                - generic [ref=e87]: ing tutorial
+            - option "playwright test report" [ref=e91]:
+              - generic [ref=e92]:
+                - text: playwright test
+                - generic [ref=e93]: report
+            - option "playwright test timeout of 30000ms exceeded" [ref=e97]:
+              - generic [ref=e98]:
+                - text: playwright test
+                - generic [ref=e99]: timeout of 30000ms exceeded
+            - option "playwright test generator" [ref=e103]:
+              - generic [ref=e104]:
+                - text: playwright test
+                - generic [ref=e105]: generator
+        - generic [ref=e106]:
+          - button "Clear" [ref=e108] [cursor=pointer]:
+            - img [ref=e110] [cursor=pointer]
+          - generic [ref=e113]:
+            - button "Search by voice" [ref=e114] [cursor=pointer]:
+              - img [ref=e115] [cursor=pointer]
+            - button "Search by image" [ref=e117] [cursor=pointer]:
+              - img [ref=e118] [cursor=pointer]
+          - link "AI Mode" [ref=e120] [cursor=pointer]:
+            - generic [ref=e122] [cursor=pointer]:
+              - img [ref=e124] [cursor=pointer]
+              - generic [ref=e131] [cursor=pointer]: AI Mode
+      - generic [ref=e132]:
+        - generic [ref=e136]:
+          - button "Google Search" [ref=e137] [cursor=pointer]
+          - button "I'm Feeling Lucky" [ref=e138] [cursor=pointer]
+        - button "Report inappropriate predictions" [ref=e139] [cursor=pointer]:
+          - generic [ref=e140] [cursor=pointer]: Report inappropriate predictions
+      - generic [ref=e142]:
+        - button "Google Search" [ref=e143] [cursor=pointer]
+        - button "I'm Feeling Lucky" [ref=e144] [cursor=pointer]
+  - contentinfo [ref=e147]:
+    - generic [ref=e148]:
+      - generic [ref=e149]:
+        - link "Advertising" [ref=e150] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+        - link "Business" [ref=e151] [cursor=pointer]:
+          - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+        - link "How Search works" [ref=e152] [cursor=pointer]:
+          - /url: https://google.com/search/howsearchworks/?fg=1
+      - link "Applying AI towards science and the environment" [ref=e154] [cursor=pointer]:
+        - /url: https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer
+        - generic [ref=e155] [cursor=pointer]: Applying AI towards science and the environment
+      - generic [ref=e156]:
+        - link "Privacy" [ref=e157] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy?hl=en&fg=1
+        - link "Terms" [ref=e158] [cursor=pointer]:
+          - /url: https://policies.google.com/terms?hl=en&fg=1
+        - button "Settings" [ref=e162] [cursor=pointer]:
+          - generic [ref=e163] [cursor=pointer]: Settings
+```

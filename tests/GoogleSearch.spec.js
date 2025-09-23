@@ -6,6 +6,8 @@ test.use({
   colorScheme: 'light'
 });
 
+test.describe.configure({ mode: 'parallel' });//for parallel test
+
 test('google search', async ({ page }) => {
 
   await page.goto('https://www.google.com/')//https://www.google.com/
@@ -24,4 +26,15 @@ test('google search', async ({ page }) => {
   await page.locator('[name=q]').press("Enter")
  
 
+})
+
+test('google search 1', async ({ page }) => {
+
+  page.on('console', msg => console.log('PAGE LOG:', msg.text()));
+})
+
+
+test('google search 2', async ({ page }) => {
+
+  page.on('console', msg => console.log('PAGE LOG:', msg.text()));
 })
