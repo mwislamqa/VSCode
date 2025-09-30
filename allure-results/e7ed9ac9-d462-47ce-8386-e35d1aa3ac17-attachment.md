@@ -1,0 +1,462 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: https://www.guru99.com/
+        - link "Demo Site" [ref=e8] [cursor=pointer]:
+          - /url: https://www.guru99.com/
+      - link [ref=e10] [cursor=pointer]:
+        - /url: https://guru99.link/recommends-zoho-projects-bugtracking-tool
+    - navigation [ref=e12]:
+      - list [ref=e15]:
+        - listitem [ref=e16]:
+          - link "Selenium" [ref=e17] [cursor=pointer]:
+            - /url: "#"
+            - text: Selenium
+        - listitem [ref=e19]:
+          - link "Insurance Project" [ref=e20] [cursor=pointer]:
+            - /url: http://demo.guru99.com/insurance/v1/index.php
+        - listitem [ref=e21]:
+          - link "Agile Project" [ref=e22] [cursor=pointer]:
+            - /url: http://demo.guru99.com/Agile_Project/Agi_V1/
+        - listitem [ref=e23]:
+          - link "Bank Project" [ref=e24] [cursor=pointer]:
+            - /url: http://demo.guru99.com/V1/index.php
+        - listitem [ref=e25]:
+          - link "Security Project" [ref=e26] [cursor=pointer]:
+            - /url: http://demo.guru99.com/Security/SEC_V1/index.php
+        - listitem [ref=e27]:
+          - link "Telecom Project" [ref=e28] [cursor=pointer]:
+            - /url: http://demo.guru99.com/telecom/index.html
+        - listitem [ref=e29]:
+          - link "Payment Gateway Project" [ref=e30] [cursor=pointer]:
+            - /url: http://demo.guru99.com/payment-gateway/index.php
+        - listitem [ref=e31]:
+          - link "New Tours" [ref=e32] [cursor=pointer]:
+            - /url: http://demo.guru99.com/test/newtours/
+        - listitem [ref=e33]:
+          - link "SEO" [ref=e34] [cursor=pointer]:
+            - /url: "#"
+            - text: SEO
+  - generic [ref=e36]:
+    - banner [ref=e37]:
+      - generic [ref=e39]:
+        - link [ref=e42] [cursor=pointer]:
+          - /url: https://www.guru99.com/
+          - img [ref=e43] [cursor=pointer]
+        - list [ref=e46]:
+          - listitem [ref=e47]:
+            - link "Home" [ref=e48] [cursor=pointer]:
+              - /url: https://www.guru99.com/
+            - text: 
+          - listitem [ref=e49]:
+            - link "Testing " [ref=e50] [cursor=pointer]:
+              - /url: https://www.guru99.com/software-testing.html
+            - list [ref=e53]:
+              - listitem [ref=e54]:
+                - link "Manual Testing" [ref=e55] [cursor=pointer]:
+                  - /url: https://www.guru99.com/software-testing.html
+              - listitem [ref=e56]:
+                - link "QTP" [ref=e57] [cursor=pointer]:
+                  - /url: https://www.guru99.com/quick-test-professional-qtp-tutorial.html
+              - listitem [ref=e58]:
+                - link "Selenium" [ref=e59] [cursor=pointer]:
+                  - /url: https://www.guru99.com/selenium-tutorial.html
+              - listitem [ref=e60]:
+                - link "Performance Testing " [ref=e61] [cursor=pointer]:
+                  - /url: https://www.guru99.com/jmeter-tutorials.html
+                - list [ref=e64]:
+                  - listitem [ref=e65]:
+                    - link "Jmeter" [ref=e66] [cursor=pointer]:
+                      - /url: https://www.guru99.com/jmeter-tutorials.html
+                  - listitem [ref=e67]:
+                    - link "Load Runner" [ref=e68] [cursor=pointer]:
+                      - /url: https://www.guru99.com/loadrunner-tutorials.html
+              - listitem [ref=e69]:
+                - link "Quality Center" [ref=e70] [cursor=pointer]:
+                  - /url: https://www.guru99.com/quality-center-tutorials.html
+              - listitem [ref=e71]:
+                - link "Mobile Testing" [ref=e72] [cursor=pointer]:
+                  - /url: https://www.guru99.com/mobile-testing.html
+              - listitem [ref=e73]:
+                - link "Live Testing Project" [ref=e74] [cursor=pointer]:
+                  - /url: https://www.guru99.com/live-testing-project.html
+              - listitem [ref=e75]:
+                - link "Test Management" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.guru99.com/test-management.html
+              - listitem [ref=e77]:
+                - link "Live Selenium Project" [ref=e78] [cursor=pointer]:
+                  - /url: https://www.guru99.com/live-selenium-project.html
+              - listitem [ref=e79]:
+                - link "Enterprise Testing " [ref=e80] [cursor=pointer]:
+                  - /url: https://www.guru99.com/utlimate-guide-etl-datawarehouse-testing.html
+                - list [ref=e83]:
+                  - listitem [ref=e84]:
+                    - link "ETL Testing" [ref=e85] [cursor=pointer]:
+                      - /url: https://www.guru99.com/utlimate-guide-etl-datawarehouse-testing.html
+                  - listitem [ref=e86]:
+                    - link "SAP Testing" [ref=e87] [cursor=pointer]:
+                      - /url: https://www.guru99.com/learn-sap-testing-create-your-first-sap-test-case.html
+                  - listitem [ref=e88]:
+                    - link "Database Testing" [ref=e89] [cursor=pointer]:
+                      - /url: https://www.guru99.com/data-testing.html
+          - listitem [ref=e90]:
+            - link "SAP " [ref=e91] [cursor=pointer]:
+              - /url: https://www.guru99.com/sap-training-hub.html
+            - list [ref=e94]:
+              - listitem [ref=e95]:
+                - link "SAP - Beginner" [ref=e96] [cursor=pointer]:
+                  - /url: https://www.guru99.com/what-is-sap.html
+              - listitem [ref=e97]:
+                - link "SAP - ABAP" [ref=e98] [cursor=pointer]:
+                  - /url: https://www.guru99.com/abap-tutorial.html
+              - listitem [ref=e99]:
+                - link "SAP - HR" [ref=e100] [cursor=pointer]:
+                  - /url: https://www.guru99.com/sap-hcm.html
+              - listitem [ref=e101]:
+                - link "SAP - FICO" [ref=e102] [cursor=pointer]:
+                  - /url: https://www.guru99.com/sap-fico-training-tutorials.html
+              - listitem [ref=e103]:
+                - link "SAP - Basis" [ref=e104] [cursor=pointer]:
+                  - /url: https://www.guru99.com/sap-basis-training-tutorials.html
+              - listitem [ref=e105]:
+                - link "SAP - SD" [ref=e106] [cursor=pointer]:
+                  - /url: https://www.guru99.com/free-sap-sd-training-course.html
+              - listitem [ref=e107]:
+                - link "SAP - CRM" [ref=e108] [cursor=pointer]:
+                  - /url: https://www.guru99.com/sap-crm-training.html
+              - listitem [ref=e109]:
+                - link "SAP - MM" [ref=e110] [cursor=pointer]:
+                  - /url: https://www.guru99.com/sap-mm-training-tutorials.html
+              - listitem [ref=e111]:
+                - link "SAP - CO" [ref=e112] [cursor=pointer]:
+                  - /url: https://www.guru99.com/co-tutorials.html
+              - listitem [ref=e113]:
+                - link "SAP - Payroll" [ref=e114] [cursor=pointer]:
+                  - /url: https://www.guru99.com/sap-payroll.html
+              - listitem [ref=e115]:
+                - link "SAP BI" [ref=e116] [cursor=pointer]:
+                  - /url: https://www.guru99.com/sap-bi.html
+          - listitem [ref=e117]:
+            - link "Web " [ref=e118] [cursor=pointer]:
+              - /url: https://www.guru99.com/php-tutorials.html
+            - list [ref=e121]:
+              - listitem [ref=e122]:
+                - link "PHP" [ref=e123] [cursor=pointer]:
+                  - /url: https://www.guru99.com/php-tutorials.html
+              - listitem [ref=e124]:
+                - link "Perl" [ref=e125] [cursor=pointer]:
+                  - /url: https://www.guru99.com/perl-tutorials.html
+              - listitem [ref=e126]:
+                - link "SQL" [ref=e127] [cursor=pointer]:
+                  - /url: https://www.guru99.com/sql.html
+              - listitem [ref=e128]:
+                - link "Linux" [ref=e129] [cursor=pointer]:
+                  - /url: https://www.guru99.com/unix-linux-tutorial.html
+              - listitem [ref=e130]:
+                - link "Java" [ref=e131] [cursor=pointer]:
+                  - /url: https://www.guru99.com/java-tutorial.html
+              - listitem [ref=e132]:
+                - link "VBScript" [ref=e133] [cursor=pointer]:
+                  - /url: https://www.guru99.com/vbscript-tutorials-for-beginners.html
+              - listitem [ref=e134]:
+                - link "Apache" [ref=e135] [cursor=pointer]:
+                  - /url: https://www.guru99.com/apache.html
+              - listitem [ref=e136]:
+                - link "JavaScript" [ref=e137] [cursor=pointer]:
+                  - /url: https://www.guru99.com/interactive-javascript-tutorials.html
+          - listitem [ref=e138]:
+            - link "Fun " [ref=e139] [cursor=pointer]:
+              - /url: https://www.guru99.com/accounting.html
+            - list [ref=e142]:
+              - listitem [ref=e143]:
+                - link "Accounting" [ref=e144] [cursor=pointer]:
+                  - /url: https://www.guru99.com/accounting.html
+              - listitem [ref=e145]:
+                - link "Ethical Hacking" [ref=e146] [cursor=pointer]:
+                  - /url: https://www.guru99.com/ethical-hacking-tutorials.html
+              - listitem [ref=e147]:
+                - link "Contest" [ref=e148] [cursor=pointer]:
+                  - /url: https://www.guru99.com/spot-the-bug-contest.html
+              - listitem [ref=e149]:
+                - link "Break Out!" [ref=e150] [cursor=pointer]:
+                  - /url: https://www.guru99.com/break-out.html
+              - listitem [ref=e151]:
+                - link "Game Zone" [ref=e152] [cursor=pointer]:
+                  - /url: https://www.guru99.com/game-zone.html
+              - listitem [ref=e153]:
+                - link "Cloud Computing" [ref=e154] [cursor=pointer]:
+                  - /url: https://www.guru99.com/cloud-computing-for-beginners.html
+          - listitem [ref=e155]:
+            - link "Blog" [ref=e156] [cursor=pointer]:
+              - /url: https://www.guru99.com/blog/
+          - listitem [ref=e157]:
+            - link "Quiz" [ref=e158] [cursor=pointer]:
+              - /url: https://www.guru99.com/tests.html
+          - listitem [ref=e159]:
+            - link "Execute online " [ref=e160] [cursor=pointer]:
+              - /url: https://www.guru99.com/try-java-editor.html
+            - list [ref=e163]:
+              - listitem [ref=e164]:
+                - link "Execute Java Online" [ref=e165] [cursor=pointer]:
+                  - /url: https://www.guru99.com/try-java-editor.html
+              - listitem [ref=e166]:
+                - link "Execute PHP Online" [ref=e167] [cursor=pointer]:
+                  - /url: https://www.guru99.com/demo-editor-php.html
+              - listitem [ref=e168]:
+                - link "Execute PERL Online" [ref=e169] [cursor=pointer]:
+                  - /url: https://www.guru99.com/try-perl.html
+              - listitem [ref=e170]:
+                - link "Execute JavaScript" [ref=e171] [cursor=pointer]:
+                  - /url: https://www.guru99.com/execute-javascript-online.html
+    - generic [ref=e172]:
+      - generic [ref=e179]:
+        - generic [ref=e182]:
+          - heading "THIS IS A DEMO PAGE FOR TESTING" [level=2] [ref=e183]:
+            - generic [ref=e184]: THIS IS A DEMO PAGE FOR TESTING
+          - paragraph [ref=e185]:
+            - text: Here you learn by practice. We make tons of efforts to take boredom out of learning and make education a fun experience.
+            - text: Inside, you will find tons of video tutorials
+          - separator [ref=e186]
+          - heading "All provided FREE!!!" [level=3] [ref=e187]
+        - iframe [ref=e191]:
+          - generic "YouTube Video Player" [ref=f1e3]:
+            - generic [ref=f1e5]:
+              - link "Photo image of Guru99" [ref=f1e7] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC19i1XD6k88KqHlET8atqFQ?embeds_referring_euri=https%3A%2F%2Fdemo.guru99.com%2F
+              - link "Automation Testing Tutorial for Beginners" [ref=f1e10] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=RbSlW8jZFe8
+              - button "Share" [ref=f1e12] [cursor=pointer]:
+                - generic [ref=f1e13] [cursor=pointer]:
+                  - img
+                - generic [ref=f1e14] [cursor=pointer]: Share
+            - button "Play" [ref=f1e17] [cursor=pointer]:
+              - img
+            - link "Watch on YouTube" [ref=f1e18] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=RbSlW8jZFe8&embeds_referring_euri=https%3A%2F%2Fdemo.guru99.com%2F
+              - generic [ref=f1e19] [cursor=pointer]: Watch on
+              - generic [ref=f1e20] [cursor=pointer]:
+                - img
+      - generic [ref=e193]:
+        - generic [ref=e199]:
+          - heading "Check out our newest courses" [level=2] [ref=e200]
+          - paragraph
+          - generic [ref=e201]:
+            - generic [ref=e209]:
+              - link "" [ref=e210] [cursor=pointer]:
+                - /url: https://www.guru99.com/sap-mm-training-tutorials.html
+                - generic [ref=e211] [cursor=pointer]: 
+              - heading "SAP MM" [level=4] [ref=e212]:
+                - link "SAP MM" [ref=e213] [cursor=pointer]:
+                  - /url: https://www.guru99.com/sap-mm-training-tutorials.html
+            - generic [ref=e221]:
+              - link "" [ref=e222] [cursor=pointer]:
+                - /url: https://www.guru99.com/accounting.html
+                - generic [ref=e223] [cursor=pointer]: 
+              - heading "ACCOUNTING" [level=4] [ref=e224]:
+                - link "ACCOUNTING" [ref=e225] [cursor=pointer]:
+                  - /url: https://www.guru99.com/accounting.html
+            - generic [ref=e233]:
+              - link "" [ref=e234] [cursor=pointer]:
+                - /url: https://www.guru99.com/live-testing-project.html
+                - generic [ref=e235] [cursor=pointer]: 
+              - heading "LIVE TESTING" [level=4] [ref=e236]:
+                - link "LIVE TESTING" [ref=e237] [cursor=pointer]:
+                  - /url: https://www.guru99.com/live-testing-project.html
+            - generic [ref=e245]:
+              - link "" [ref=e246] [cursor=pointer]:
+                - /url: https://www.guru99.com/mobile-testing.html
+                - generic [ref=e247] [cursor=pointer]: 
+              - heading "MOBILE TESTING" [level=4] [ref=e248]:
+                - link "MOBILE TESTING" [ref=e249] [cursor=pointer]:
+                  - /url: https://www.guru99.com/mobile-testing.html
+            - generic [ref=e257]:
+              - link "" [ref=e258] [cursor=pointer]:
+                - /url: https://www.guru99.com/ethical-hacking-tutorials.html
+                - generic [ref=e259] [cursor=pointer]: 
+              - heading "Ethical Hacking" [level=4] [ref=e260]:
+                - link "Ethical Hacking" [ref=e261] [cursor=pointer]:
+                  - /url: https://www.guru99.com/ethical-hacking-tutorials.html
+            - generic [ref=e269]:
+              - link "" [ref=e270] [cursor=pointer]:
+                - /url: https://www.guru99.com/vbscript-tutorials-for-beginners.html
+                - generic [ref=e271] [cursor=pointer]: 
+              - heading "VBScript" [level=4] [ref=e272]:
+                - link "VBScript" [ref=e273] [cursor=pointer]:
+                  - /url: https://www.guru99.com/vbscript-tutorials-for-beginners.html
+          - generic [ref=e274]:
+            - separator [ref=e275]
+            - heading "A few of our most popular courses" [level=2] [ref=e276]
+            - generic [ref=e284]:
+              - link "" [ref=e285] [cursor=pointer]:
+                - /url: https://www.guru99.com/selenium-tutorial.html
+                - generic [ref=e286] [cursor=pointer]: 
+              - heading "SELENIUM" [level=4] [ref=e287]:
+                - link "SELENIUM" [ref=e288] [cursor=pointer]:
+                  - /url: https://www.guru99.com/selenium-tutorial.html
+            - generic [ref=e296]:
+              - link "" [ref=e297] [cursor=pointer]:
+                - /url: https://www.guru99.com/java-tutorial.html
+                - generic [ref=e298] [cursor=pointer]: 
+              - heading "JAVA" [level=4] [ref=e299]:
+                - link "JAVA" [ref=e300] [cursor=pointer]:
+                  - /url: https://www.guru99.com/java-tutorial.html
+            - generic [ref=e308]:
+              - link "" [ref=e309] [cursor=pointer]:
+                - /url: https://www.guru99.com/quick-test-professional-qtp-tutorial.html
+                - generic [ref=e310] [cursor=pointer]: 
+              - heading "QTP" [level=4] [ref=e311]:
+                - link "QTP" [ref=e312] [cursor=pointer]:
+                  - /url: https://www.guru99.com/quick-test-professional-qtp-tutorial.html
+            - generic [ref=e320]:
+              - link "" [ref=e321] [cursor=pointer]:
+                - /url: https://www.guru99.com/what-is-sap.html
+                - generic [ref=e322] [cursor=pointer]: 
+              - heading "SAP Beginners" [level=4] [ref=e323]:
+                - link "SAP Beginners" [ref=e324] [cursor=pointer]:
+                  - /url: https://www.guru99.com/what-is-sap.html
+            - generic [ref=e332]:
+              - link "" [ref=e333] [cursor=pointer]:
+                - /url: https://www.guru99.com/unix-linux-tutorial.html
+                - generic [ref=e334] [cursor=pointer]: 
+              - heading "Linux" [level=4] [ref=e335]:
+                - link "Linux" [ref=e336] [cursor=pointer]:
+                  - /url: https://www.guru99.com/unix-linux-tutorial.html
+        - generic [ref=e341]:
+          - generic [ref=e343]:
+            - heading "Have Fun While You Learn" [level=3] [ref=e344]
+            - paragraph [ref=e345]: Take the pleasure of e-learning with interactive lessons taught by experts, and practice them step by step.
+          - img "guru99" [ref=e348]
+        - article [ref=e356]:
+          - heading "All Courses include" [level=2] [ref=e357]
+          - generic [ref=e358]:
+            - generic:
+              - generic [ref=e361]:
+                - heading "Learn courses from a pro." [level=4] [ref=e363]
+                - paragraph [ref=e366]: Our experts are passionate teachers who share their sound knowledge and rich experience with learners
+              - generic [ref=e369]:
+                - heading "Variety of tutorials and Quiz" [level=4] [ref=e371]
+                - paragraph [ref=e374]: Interactive tutorials and Quiz for testing your technical skills and knowledge
+              - generic [ref=e377]:
+                - heading "Unlimited access" [level=4] [ref=e379]
+                - paragraph [ref=e382]: Browse the entire course library and choose the course of your interest
+              - generic [ref=e385]:
+                - heading "Video Tutorials" [level=4] [ref=e387]
+                - paragraph [ref=e390]: Exceptional video tutorials by experts for beginner, intermediate & advance learners
+          - generic [ref=e391]:
+            - generic [ref=e393]:
+              - heading "Desktop, mobile, and tablet access" [level=3] [ref=e394]
+              - list [ref=e395]:
+                - listitem [ref=e396]:
+                  - paragraph [ref=e397]: Free android App
+                - listitem [ref=e398]:
+                  - paragraph [ref=e399]: Download any tutorial for free
+                - listitem [ref=e400]:
+                  - paragraph [ref=e401]: Watch video tutorials from anywhere
+              - paragraph [ref=e402]:
+                - link [ref=e403] [cursor=pointer]:
+                  - /url: https:/play.google.com/store/apps/details?id=com.vector.guru99&hl=en
+            - img [ref=e406]
+          - generic [ref=e407]:
+            - heading "A trusted source for knowledge." [level=3] [ref=e408]
+            - paragraph [ref=e410]:
+              - strong [ref=e411]:
+                - text: 7 million +
+                - text: PEOPLE
+            - paragraph [ref=e414]:
+              - strong [ref=e415]: We have provided training to more than 7 million people.
+              - text: Helped our students to learn new skills, get better jobs, get better pay. All training is provided FREE to beat rising cost of education in line with our company mission!
+          - paragraph [ref=e416]
+          - heading "iFrame will not show if you have adBlock extension enabled" [level=3] [ref=e417]
+          - iframe [ref=e418]:
+            - link [ref=f2e2] [cursor=pointer]:
+              - /url: http://www.guru99.com/live-selenium-project.html
+              - img [ref=f2e3] [cursor=pointer]
+          - paragraph [ref=e419]
+          - heading "Email Submission" [level=3] [ref=e420]
+          - generic [ref=e421]:
+            - generic [ref=e422]: Email
+            - textbox "Enter Email" [ref=e423]
+            - button "Submit" [ref=e424] [cursor=pointer]
+          - generic [ref=e425]: "Course Selection:"
+          - combobox "Course Selection:" [ref=e426]:
+            - option "SAP Beginner" [selected]
+            - option "SAP ABAP"
+            - option "SAP HR"
+            - option "SAP FICO"
+            - option "SAP Basis"
+            - option "SAP SD"
+            - option "SAP CRM"
+            - option "SAP MM"
+            - option "SAP CO"
+            - option "SAP Payroll"
+            - option "SAP BI"
+            - option "SAP PP"
+            - option "SAP QM"
+            - option "SAP HANA"
+    - contentinfo [ref=e431]:
+      - generic [ref=e433]:
+        - generic [ref=e437]:
+          - generic [ref=e440]:
+            - heading "About" [level=4] [ref=e442]
+            - generic [ref=e444]:
+              - link "About us" [ref=e445] [cursor=pointer]:
+                - /url: https://www.guru99.com/about-us.html
+              - link "Corporate Training" [ref=e446] [cursor=pointer]:
+                - /url: https://www.guru99.com/corporate-training.html
+              - link "Sitemap" [ref=e447] [cursor=pointer]:
+                - /url: https://www.guru99.com/sitemap
+          - generic [ref=e450]:
+            - heading "Contact Us" [level=4] [ref=e452]
+            - link "Contact us" [ref=e455] [cursor=pointer]:
+              - /url: https://www.guru99.com/contact-us.html
+          - generic [ref=e458]:
+            - heading "Certifications" [level=4] [ref=e460]
+            - generic [ref=e462]:
+              - link "Software Testing" [ref=e463] [cursor=pointer]:
+                - /url: https://www.guru99.com/software-testing-certification.html
+              - link "SAP Certification" [ref=e464] [cursor=pointer]:
+                - /url: https://www.guru99.com/how-to-become-sap-consultant.html
+              - link "MySQL Certification" [ref=e465] [cursor=pointer]:
+                - /url: https://www.guru99.com/mysql-certification-guide.html
+              - link "QTP Certification" [ref=e466] [cursor=pointer]:
+                - /url: https://www.guru99.com/qtp-quality-center-certification-details.html
+          - generic [ref=e469]:
+            - heading "Network Sites" [level=4] [ref=e471]
+            - link "Career Guru99" [ref=e474] [cursor=pointer]:
+              - /url: http:/career.guru99.com/
+          - generic [ref=e477]:
+            - heading "Careers" [level=4] [ref=e479]
+            - generic [ref=e481]:
+              - link "Jobs" [ref=e482] [cursor=pointer]:
+                - /url: https://www.guru99.com/freelancing.html
+              - link "Contest" [ref=e483] [cursor=pointer]:
+                - /url: https://www.guru99.com/spot-the-bug-contest.html
+          - generic [ref=e486]:
+            - heading "Social" [level=4] [ref=e488]
+            - generic [ref=e490]:
+              - link "Facebook" [ref=e491] [cursor=pointer]:
+                - /url: http:/www.facebook.com/pages/Guru99/285953441324
+              - link "Twitter" [ref=e492] [cursor=pointer]:
+                - /url: http:/twitter.com/guru99com
+              - link "LinkedIn" [ref=e493] [cursor=pointer]:
+                - /url: http:/www.linkedin.com/company/guru99
+              - link "Pinterest" [ref=e494] [cursor=pointer]:
+                - /url: https:/www.pinterest.com/guru99t/
+          - generic [ref=e497]:
+            - heading "Books" [level=4] [ref=e499]
+            - link "Books to Read" [ref=e501] [cursor=pointer]:
+              - /url: https://www.guru99.com/books.html
+          - generic [ref=e504]:
+            - heading "Android App" [level=4] [ref=e506]
+            - link [ref=e508] [cursor=pointer]:
+              - /url: https:/play.google.com/store/apps/details?id=com.vector.guru99&hl=en
+              - img [ref=e509] [cursor=pointer]
+        - link "" [ref=e514] [cursor=pointer]:
+          - /url: https://www.guru99.com/#
+          - paragraph [ref=e515] [cursor=pointer]: 
+```

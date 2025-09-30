@@ -24,7 +24,7 @@ test.only('handle dropdown ',  async ({page}) =>{
    await  page.goto('https://www.facebook.com/r.php')
    await expect(page).toHaveURL('https://www.facebook.com/r.php')
    const fbimge= await page.locator("//div[@class='_9bp-']/img")
-   await expect(fbimge).toBeVisible
+   await expect(fbimge).toBeVisible()
 
 
    await expect(page).toHaveTitle('Sign Up for Facebook');

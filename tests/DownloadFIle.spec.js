@@ -1,18 +1,22 @@
 
 import { test, expect } from '@playwright/test';
 
-test('file download in playwright', async ({ page  }, testInfo) => {
+test('file download in playwright', async ({ page }, testInfo) => {
 
     await page.goto('https://www.lambdatest.com/selenium-playground/generate-file-to-download-demo');
-
-
     await page.locator('#textbox').click();
-    await page.locator('#textbox').fill('download this file using playwright automation');
-    await page.waitForTimeout(3000)
-    await page.locator("#create").click({button: 'force'});
-  
+    await page.locator('#textbox').fill('fkljdlkfjdlkjdlkfjdlkfjd');
+    const generateButton = await page.getByRole('button', { name: 'Generate File' });
+    await expect(generateButton).toBeVisible();
+ 
+    await generateButton.click({force:true});
+
+    const downloadlink = page.getByRole('link', { name: 'Download' })
+    await expect(downloadlink).toBeVisible();
+    downloadlink.click();
+
+    // Start waiting for the download
     const downloadPromise = page.waitForEvent('download');
-    await page.getByRole('link', { name: 'Download' }).click();
     const download = await downloadPromise;
 
     // Start waiting for download before clicking. Note no await.
