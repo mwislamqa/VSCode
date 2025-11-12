@@ -1,5 +1,5 @@
-const { test, expect } = require('@playwright/test')
-
+//const { test, expect } = require('@playwright/test')
+import { test , expect} from '@playwright/test';
 import { LognPage } from '../PageObjectModel/LoginPage';
 
 test.only('login test page object model', async ({ page }) => {

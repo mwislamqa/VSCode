@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test')
+import { test , expect} from '@playwright/test';
 import fs from 'fs';
 import path from 'path';
 import { parse } from 'csv-parse/sync';

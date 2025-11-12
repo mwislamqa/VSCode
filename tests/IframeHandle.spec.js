@@ -1,6 +1,6 @@
 
-const { test, expect } = require('@playwright/test')
-
+//const { test, expect } = require('@playwright/test')
+import { test , expect} from '@playwright/test';
 test('handle iframe', async ({ page }) => {
 
   // await page.goto('https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_iframe')

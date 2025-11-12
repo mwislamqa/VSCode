@@ -1,6 +1,4 @@
-
-const { test, expect } = require('@playwright/test')
-import { chromium } from 'playwright'
+import { test , expect} from '@playwright/test';
 
 test('alert diolog handle', async () => {
   //`await page.goto('/' +'test/delete_customer.php')`

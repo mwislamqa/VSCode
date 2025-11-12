@@ -1,10 +1,11 @@
-const { test, expect } = require('@playwright/test')
-
+//const { test, expect } = require('@playwright/test')
+import { chromium } from 'playwright';
+import { devices, test, expect } from '@playwright/test';
 //page size
-test.use({
-  viewport: { width: 1500, height: 1200 },
-  colorScheme: 'light'
-});
+// test.use({
+//   viewport: { width: 1500, height: 1200 },
+//   colorScheme: 'light'
+// });
 
 //test.describe.configure({ mode: 'parallel' });//for parallel test
 

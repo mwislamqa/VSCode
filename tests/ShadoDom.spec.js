@@ -2,7 +2,7 @@
 
 
 
-const { test } = require('@playwright/test');
+import { test , expect} from '@playwright/test';
 
 test('shaddow dom', async ({ page }) => {
     await page.goto('https://books-pwakit.appspot.com/')

@@ -1,5 +1,5 @@
-const { test, expect, chromium } = require('@playwright/test')
-
+//const { test, expect, chromium } = require('@playwright/test')
+import { test , expect} from '@playwright/test';
 test('scroll page', async () => {
 
     const browser = await chromium.launch({

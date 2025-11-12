@@ -1,5 +1,5 @@
-const { test, expect } = require('@playwright/test')
-
+//const { test, expect } = require('@playwright/test')
+import { test , expect} from '@playwright/test';
 
 // create array of list 
 
@@ -15,9 +15,9 @@ for (const searchData of parmeterData) {
     
         await page.locator('[name =q]').fill(searchData)
     
-        await page.locator('[name =q]').press('Enter')
+       // await page.locator('[name =q]').press('Enter')
     
-        await page.waitForTimeout(15000)
+       // await page.waitForTimeout(15000)
     
     })
 

@@ -1,5 +1,5 @@
-const {test,expect}= require('@playwright/test')
-
+//const {test,expect}= require('@playwright/test')
+import { test , expect} from '@playwright/test';
 test('mouse hove actiove by playwright',async function({page}){
 
 await page.goto("https://www.amazon.com/")

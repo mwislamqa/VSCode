@@ -1,7 +1,7 @@
 
-const {test,expect}= require('@playwright/test')
+//const {test,expect}= require('@playwright/test')
 //const { describe } = require('node:test')
-
+import { test , expect} from '@playwright/test';
 test.beforeEach(async ({ page }) => {
     await page.goto('https://www.saucedemo.com/');
     console.log('test start')

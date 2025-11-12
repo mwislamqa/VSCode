@@ -1,5 +1,7 @@
 
-const { test, expect } = require('@playwright/test')
+//const { test, expect } = require('@playwright/test')
+
+import { test , expect} from '@playwright/test';
 test.describe('my login test', () => {
 
     test.beforeEach(async ({ page }) => {

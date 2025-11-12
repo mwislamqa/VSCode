@@ -7,7 +7,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 import dotenv from 'dotenv';//for env veriable call
 import path from 'path';
-require('dotenv').config()
+//require('dotenv').config()
 dotenv.config({
   path: `./env/.${process.env.ENV}`
 });
@@ -17,7 +17,8 @@ dotenv.config({
  */
 export default defineConfig({
   testDir: './tests',
-  timeout: 10 * 1000,
+  //timeout: 10_1000,
+  globalTimeout: 3_600_000,
   /* Run tests in files in parallel */
   fullyParallel: false,
   //reporter: './my-awesome-reporter.js',
@@ -38,11 +39,13 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: 'https://playwright.dev/',
+    actionTimeout: 10 * 1000,
+    navigationTimeout: 30 * 1000,
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
-    viewport: { width: 1280, height: 720 }
+    //viewport: { width: 1280, height: 720 }
   },
 
   /* Configure projects for major browsers */
@@ -53,16 +56,16 @@ export default defineConfig({
     //   use: { 
     //     channel: 'chrome'
     //    }
-    // },
-    {
+    // // },
+     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
 
 
     // {
-    //   name: 'firefox',
-    //   use: { ...devices['Desktop Firefox'] },
+    //   name: 'iphon',
+    //   use: { ...devices["iPhone 15 Pro Max"] },
     // },
 
     // {

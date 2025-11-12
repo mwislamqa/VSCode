@@ -1,5 +1,4 @@
-const {test, expect }= require('@playwright/test')
-
+import { test , expect} from '@playwright/test';
 
 test('all mouse actiion click operation', async ({page})=>{
 
@@ -20,6 +19,6 @@ await page.locator('').click({button: 'down'})
 await page.locator("").dblclick();
 //hidden element click
 await page.locator('').click({force:true})
-
-
+//drag and drop
+await page.locator('#item-to-be-dragged').dragTo(page.locator('#item-to-drop-at'));
 })

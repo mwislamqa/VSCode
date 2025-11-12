@@ -1,0 +1,219 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "PMP Practice" [ref=e4] [cursor=pointer]:
+      - /url: https://pmp.expandtesting.com/
+    - text: "| Free PMP Certification Mock Exam Test +900 Questions & Quizzes"
+    - link "Manual testing services" [ref=e5] [cursor=pointer]:
+      - img [ref=e7] [cursor=pointer]
+      - generic [ref=e9] [cursor=pointer]: Manual testing services
+  - banner [ref=e11]:
+    - navigation "Main navigation" [ref=e12]:
+      - link "SUT" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e14] [cursor=pointer]'
+        - text: Practice
+      - generic [ref=e15]:
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - button "Demos" [ref=e18] [cursor=pointer]
+          - listitem [ref=e19]:
+            - link "Tools" [ref=e20] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e21]:
+            - link "Tips" [ref=e22] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e23]:
+            - link "Test Cases" [ref=e24] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e25]:
+            - link "API Testing" [ref=e26] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e27]:
+            - link "About" [ref=e28] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e29] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e30]:
+    - insertion [ref=e34]:
+      - iframe [ref=e36]:
+        - generic [active] [ref=f1e1]:
+          - generic [ref=f1e7]:
+            - generic [ref=f1e8]:
+              - link "Develop Your App Idea Quickly" [ref=f1e10] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=Cw07G8OIIafLVAvqYhNEP3N2SwAuPhYeCgwGtx82d5RSX2vT9CBABIJWUmaMBYMm2n4fQo9gQoAHzi8_wAsgBAagDAcgDwwSqBJYCT9BD2IUns85Ldgfr7t2n2z6jf0e3YS2vOZi-QxMO1LBAJqn2BXojLYpvavZkLkAielQEn1WeuDE2ySgSmKb3VHC6z_OODEqt2xqD4Ot0Yx49ieXeXacJqR_VXjnulp60S11ZVmS5dDsT0Ow7sYxRVpvZsWYekpAehx09BFv9zd6yHOtFr6BEh32qjuBmkNQqm3nDbmtcG3z7tLZr3sal5ClQngUZxZchzpLmNdbrh7TAc2Bco1PL4YRS2TMfKZT1yJedo-H7CwfBS_BThIHnGPyhbzhAZK_aOwHB6V-mqms8DXv9RUJaMb7ox4970a4D4daZdLgfQIRHNgtN5ZPIaAhoa-jNvXef3F1Obe9xjDYat6LNz6bABObEjJW1BYgFj7OuqFagBmaAB_XzsI8BqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYk9isxr3WkAOxCYkhnz62p2J8gAoBmAsByAsB2gwQCgoQ4Ln28b-6j55KEgIBA6oNAlVTyA0B6g0TCOyDy8a91pADFXoMIQQd3K4EuPANAogOCdgTCogUAtAVAcoWAgoA-BYBgBcBshcOGAEqCjQ5NzAyMTIyMjG6FwI4AaoYFwn_____b_MfQRIKNDk3MDIxMjIyMRgBshgJEgLlWRhmIgEA0BgB6BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMI8o2txr3WkAMVegwhBB3crgS4EAEYASAAEgI7x_D_BwE&num=1&cid=CAQSswEAwksa0bAbsCDRfys7HwRbtvvFVsMzYp-JW1nKd1HjtByp7aLIxC-ckFcKDGDM1B0ssIkf2jZY3xc0sYDVmEILbXxoyweDwwdnXSn7t-16iDoyTTcNvkblHZXRIftT3Vyit9rr0Nxyzinr0R1mA9UuGjNYbmJTxwQYl82bZkOTn3tPQFgBwsmw7uQ3w-UzR4rSGptr4VMgro_eGGwVkY6jUVXz0MAkrPK0aPtczwZHK62GPRgB&sig=AOD64_2fSKxtG8l557puNopbemB0jz8X_g&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://www.akveo.com/services/node-js%3Futm_term%3D%26utm_campaign%3DNode.js%2B(US)%2BClicks%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26hsa_acc%3D5749992990%26hsa_cam%3D23170095503%26hsa_grp%3D186070016614%26hsa_ad%3D780324162457%26hsa_src%3Dd%26hsa_tgt%3D%26hsa_kw%3D%26hsa_mt%3D%26hsa_net%3Dadwords%26hsa_ver%3D3%26gad_source%3D5%26gad_campaignid%3D23170095503%26gclid%3DEAIaIQobChMI8o2txr3WkAMVegwhBB3crgS4EAEYASAAEgI7x_D_BwE
+              - link "Mvp Development Services" [ref=f1e12] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=Cw07G8OIIafLVAvqYhNEP3N2SwAuPhYeCgwGtx82d5RSX2vT9CBABIJWUmaMBYMm2n4fQo9gQoAHzi8_wAsgBAagDAcgDwwSqBJYCT9BD2IUns85Ldgfr7t2n2z6jf0e3YS2vOZi-QxMO1LBAJqn2BXojLYpvavZkLkAielQEn1WeuDE2ySgSmKb3VHC6z_OODEqt2xqD4Ot0Yx49ieXeXacJqR_VXjnulp60S11ZVmS5dDsT0Ow7sYxRVpvZsWYekpAehx09BFv9zd6yHOtFr6BEh32qjuBmkNQqm3nDbmtcG3z7tLZr3sal5ClQngUZxZchzpLmNdbrh7TAc2Bco1PL4YRS2TMfKZT1yJedo-H7CwfBS_BThIHnGPyhbzhAZK_aOwHB6V-mqms8DXv9RUJaMb7ox4970a4D4daZdLgfQIRHNgtN5ZPIaAhoa-jNvXef3F1Obe9xjDYat6LNz6bABObEjJW1BYgFj7OuqFagBmaAB_XzsI8BqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYk9isxr3WkAOxCYkhnz62p2J8gAoBmAsByAsB2gwQCgoQ4Ln28b-6j55KEgIBA6oNAlVTyA0B6g0TCOyDy8a91pADFXoMIQQd3K4EuPANAogOCdgTCogUAtAVAcoWAgoA-BYBgBcBshcOGAEqCjQ5NzAyMTIyMjG6FwI4AaoYFwn_____b_MfQRIKNDk3MDIxMjIyMRgBshgJEgLlWRhmIgEA0BgB6BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMI8o2txr3WkAMVegwhBB3crgS4EAEYASAAEgI7x_D_BwE&num=1&cid=CAQSswEAwksa0bAbsCDRfys7HwRbtvvFVsMzYp-JW1nKd1HjtByp7aLIxC-ckFcKDGDM1B0ssIkf2jZY3xc0sYDVmEILbXxoyweDwwdnXSn7t-16iDoyTTcNvkblHZXRIftT3Vyit9rr0Nxyzinr0R1mA9UuGjNYbmJTxwQYl82bZkOTn3tPQFgBwsmw7uQ3w-UzR4rSGptr4VMgro_eGGwVkY6jUVXz0MAkrPK0aPtczwZHK62GPRgB&sig=AOD64_2fSKxtG8l557puNopbemB0jz8X_g&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://www.akveo.com/services/node-js%3Futm_term%3D%26utm_campaign%3DNode.js%2B(US)%2BClicks%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26hsa_acc%3D5749992990%26hsa_cam%3D23170095503%26hsa_grp%3D186070016614%26hsa_ad%3D780324162457%26hsa_src%3Dd%26hsa_tgt%3D%26hsa_kw%3D%26hsa_mt%3D%26hsa_net%3Dadwords%26hsa_ver%3D3%26gad_source%3D5%26gad_campaignid%3D23170095503%26gclid%3DEAIaIQobChMI8o2txr3WkAMVegwhBB3crgS4EAEYASAAEgI7x_D_BwE
+              - 'link "Akveo: Hire Node.js Experts. Build Your Dream App Today" [ref=f1e14] [cursor=pointer]':
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=Cw07G8OIIafLVAvqYhNEP3N2SwAuPhYeCgwGtx82d5RSX2vT9CBABIJWUmaMBYMm2n4fQo9gQoAHzi8_wAsgBAagDAcgDwwSqBJYCT9BD2IUns85Ldgfr7t2n2z6jf0e3YS2vOZi-QxMO1LBAJqn2BXojLYpvavZkLkAielQEn1WeuDE2ySgSmKb3VHC6z_OODEqt2xqD4Ot0Yx49ieXeXacJqR_VXjnulp60S11ZVmS5dDsT0Ow7sYxRVpvZsWYekpAehx09BFv9zd6yHOtFr6BEh32qjuBmkNQqm3nDbmtcG3z7tLZr3sal5ClQngUZxZchzpLmNdbrh7TAc2Bco1PL4YRS2TMfKZT1yJedo-H7CwfBS_BThIHnGPyhbzhAZK_aOwHB6V-mqms8DXv9RUJaMb7ox4970a4D4daZdLgfQIRHNgtN5ZPIaAhoa-jNvXef3F1Obe9xjDYat6LNz6bABObEjJW1BYgFj7OuqFagBmaAB_XzsI8BqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYk9isxr3WkAOxCYkhnz62p2J8gAoBmAsByAsB2gwQCgoQ4Ln28b-6j55KEgIBA6oNAlVTyA0B6g0TCOyDy8a91pADFXoMIQQd3K4EuPANAogOCdgTCogUAtAVAcoWAgoA-BYBgBcBshcOGAEqCjQ5NzAyMTIyMjG6FwI4AaoYFwn_____b_MfQRIKNDk3MDIxMjIyMRgBshgJEgLlWRhmIgEA0BgB6BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMI8o2txr3WkAMVegwhBB3crgS4EAEYASAAEgI7x_D_BwE&num=1&cid=CAQSswEAwksa0bAbsCDRfys7HwRbtvvFVsMzYp-JW1nKd1HjtByp7aLIxC-ckFcKDGDM1B0ssIkf2jZY3xc0sYDVmEILbXxoyweDwwdnXSn7t-16iDoyTTcNvkblHZXRIftT3Vyit9rr0Nxyzinr0R1mA9UuGjNYbmJTxwQYl82bZkOTn3tPQFgBwsmw7uQ3w-UzR4rSGptr4VMgro_eGGwVkY6jUVXz0MAkrPK0aPtczwZHK62GPRgB&sig=AOD64_2fSKxtG8l557puNopbemB0jz8X_g&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://www.akveo.com/services/node-js%3Futm_term%3D%26utm_campaign%3DNode.js%2B(US)%2BClicks%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26hsa_acc%3D5749992990%26hsa_cam%3D23170095503%26hsa_grp%3D186070016614%26hsa_ad%3D780324162457%26hsa_src%3Dd%26hsa_tgt%3D%26hsa_kw%3D%26hsa_mt%3D%26hsa_net%3Dadwords%26hsa_ver%3D3%26gad_source%3D5%26gad_campaignid%3D23170095503%26gclid%3DEAIaIQobChMI8o2txr3WkAMVegwhBB3crgS4EAEYASAAEgI7x_D_BwE
+            - generic [ref=f1e17]:
+              - link "Akveo" [ref=f1e20] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=Cw07G8OIIafLVAvqYhNEP3N2SwAuPhYeCgwGtx82d5RSX2vT9CBABIJWUmaMBYMm2n4fQo9gQoAHzi8_wAsgBAagDAcgDwwSqBJYCT9BD2IUns85Ldgfr7t2n2z6jf0e3YS2vOZi-QxMO1LBAJqn2BXojLYpvavZkLkAielQEn1WeuDE2ySgSmKb3VHC6z_OODEqt2xqD4Ot0Yx49ieXeXacJqR_VXjnulp60S11ZVmS5dDsT0Ow7sYxRVpvZsWYekpAehx09BFv9zd6yHOtFr6BEh32qjuBmkNQqm3nDbmtcG3z7tLZr3sal5ClQngUZxZchzpLmNdbrh7TAc2Bco1PL4YRS2TMfKZT1yJedo-H7CwfBS_BThIHnGPyhbzhAZK_aOwHB6V-mqms8DXv9RUJaMb7ox4970a4D4daZdLgfQIRHNgtN5ZPIaAhoa-jNvXef3F1Obe9xjDYat6LNz6bABObEjJW1BYgFj7OuqFagBmaAB_XzsI8BqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYk9isxr3WkAOxCYkhnz62p2J8gAoBmAsByAsB2gwQCgoQ4Ln28b-6j55KEgIBA6oNAlVTyA0B6g0TCOyDy8a91pADFXoMIQQd3K4EuPANAogOCdgTCogUAtAVAcoWAgoA-BYBgBcBshcOGAEqCjQ5NzAyMTIyMjG6FwI4AaoYFwn_____b_MfQRIKNDk3MDIxMjIyMRgBshgJEgLlWRhmIgEA0BgB6BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMI8o2txr3WkAMVegwhBB3crgS4EAEYASAAEgI7x_D_BwE&num=1&cid=CAQSswEAwksa0bAbsCDRfys7HwRbtvvFVsMzYp-JW1nKd1HjtByp7aLIxC-ckFcKDGDM1B0ssIkf2jZY3xc0sYDVmEILbXxoyweDwwdnXSn7t-16iDoyTTcNvkblHZXRIftT3Vyit9rr0Nxyzinr0R1mA9UuGjNYbmJTxwQYl82bZkOTn3tPQFgBwsmw7uQ3w-UzR4rSGptr4VMgro_eGGwVkY6jUVXz0MAkrPK0aPtczwZHK62GPRgB&sig=AOD64_2fSKxtG8l557puNopbemB0jz8X_g&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://www.akveo.com/services/node-js%3Futm_term%3D%26utm_campaign%3DNode.js%2B(US)%2BClicks%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26hsa_acc%3D5749992990%26hsa_cam%3D23170095503%26hsa_grp%3D186070016614%26hsa_ad%3D780324162457%26hsa_src%3Dd%26hsa_tgt%3D%26hsa_kw%3D%26hsa_mt%3D%26hsa_net%3Dadwords%26hsa_ver%3D3%26gad_source%3D5%26gad_campaignid%3D23170095503%26gclid%3DEAIaIQobChMI8o2txr3WkAMVegwhBB3crgS4EAEYASAAEgI7x_D_BwE
+              - link "OPEN" [ref=f1e23] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=Cw07G8OIIafLVAvqYhNEP3N2SwAuPhYeCgwGtx82d5RSX2vT9CBABIJWUmaMBYMm2n4fQo9gQoAHzi8_wAsgBAagDAcgDwwSqBJYCT9BD2IUns85Ldgfr7t2n2z6jf0e3YS2vOZi-QxMO1LBAJqn2BXojLYpvavZkLkAielQEn1WeuDE2ySgSmKb3VHC6z_OODEqt2xqD4Ot0Yx49ieXeXacJqR_VXjnulp60S11ZVmS5dDsT0Ow7sYxRVpvZsWYekpAehx09BFv9zd6yHOtFr6BEh32qjuBmkNQqm3nDbmtcG3z7tLZr3sal5ClQngUZxZchzpLmNdbrh7TAc2Bco1PL4YRS2TMfKZT1yJedo-H7CwfBS_BThIHnGPyhbzhAZK_aOwHB6V-mqms8DXv9RUJaMb7ox4970a4D4daZdLgfQIRHNgtN5ZPIaAhoa-jNvXef3F1Obe9xjDYat6LNz6bABObEjJW1BYgFj7OuqFagBmaAB_XzsI8BqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYk9isxr3WkAOxCYkhnz62p2J8gAoBmAsByAsB2gwQCgoQ4Ln28b-6j55KEgIBA6oNAlVTyA0B6g0TCOyDy8a91pADFXoMIQQd3K4EuPANAogOCdgTCogUAtAVAcoWAgoA-BYBgBcBshcOGAEqCjQ5NzAyMTIyMjG6FwI4AaoYFwn_____b_MfQRIKNDk3MDIxMjIyMRgBshgJEgLlWRhmIgEA0BgB6BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMI8o2txr3WkAMVegwhBB3crgS4EAEYASAAEgI7x_D_BwE&num=1&cid=CAQSswEAwksa0bAbsCDRfys7HwRbtvvFVsMzYp-JW1nKd1HjtByp7aLIxC-ckFcKDGDM1B0ssIkf2jZY3xc0sYDVmEILbXxoyweDwwdnXSn7t-16iDoyTTcNvkblHZXRIftT3Vyit9rr0Nxyzinr0R1mA9UuGjNYbmJTxwQYl82bZkOTn3tPQFgBwsmw7uQ3w-UzR4rSGptr4VMgro_eGGwVkY6jUVXz0MAkrPK0aPtczwZHK62GPRgB&sig=AOD64_2fSKxtG8l557puNopbemB0jz8X_g&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.akveo.com/services/node-js%3Futm_term%3D%26utm_campaign%3DNode.js%2B(US)%2BClicks%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26hsa_acc%3D5749992990%26hsa_cam%3D23170095503%26hsa_grp%3D186070016614%26hsa_ad%3D780324162457%26hsa_src%3Dd%26hsa_tgt%3D%26hsa_kw%3D%26hsa_mt%3D%26hsa_net%3Dadwords%26hsa_ver%3D3%26gad_source%3D5%26gad_campaignid%3D23170095503%26gclid%3DEAIaIQobChMI8o2txr3WkAMVegwhBB3crgS4EAEYASAAEgI7x_D_BwE
+                - generic [ref=f1e26] [cursor=pointer]:
+                  - generic [ref=f1e28] [cursor=pointer]: OPEN
+                  - img [ref=f1e29] [cursor=pointer]
+          - img [ref=f1e34] [cursor=pointer]
+          - button [ref=f1e37] [cursor=pointer]:
+            - img [ref=f1e38] [cursor=pointer]
+          - iframe
+    - paragraph [ref=e38]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e39] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e40]:
+      - insertion [ref=e42]:
+        - iframe [ref=e44]:
+          - iframe [ref=f2e1]:
+            - generic [ref=f3e2]:
+              - iframe [ref=f3e5]:
+                - generic [active] [ref=f4e1]:
+                  - img [ref=f4e3]
+                  - generic [ref=f4e4]:
+                    - img [ref=f4e9]
+                    - generic [ref=f4e11]:
+                      - generic [ref=f4e12]: Show clients
+                      - generic [ref=f4e13]: you mean
+                      - generic [ref=f4e14]: business.
+                      - generic [ref=f4e15]:
+                        - generic [ref=f4e16]: Get
+                        - generic [ref=f4e17]: a
+                      - generic [ref=f4e19]: branded
+                      - generic [ref=f4e21]: email
+                      - generic [ref=f4e22]:
+                        - generic [ref=f4e23]: address
+                        - text: for
+                      - generic [ref=f4e24]: everyone on
+                      - generic [ref=f4e25]: your team.
+                    - generic [ref=f4e27] [cursor=pointer]:
+                      - img [ref=f4e28] [cursor=pointer]
+                      - img [ref=f4e31] [cursor=pointer]
+                      - generic [ref=f4e34] [cursor=pointer]: Sign up
+                    - generic:
+                      - img
+                    - img [ref=f4e37]
+                  - img
+              - generic [ref=f3e6]:
+                - generic:
+                  - img [ref=f3e10] [cursor=pointer]
+                  - button [ref=f3e13] [cursor=pointer]:
+                    - img [ref=f3e14] [cursor=pointer]
+      - generic [ref=e47]:
+        - navigation "breadcrumb mb-2" [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - link "Home" [ref=e51] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e52]: / Dynamic Table
+        - heading "Dynamic Table page for Automation Testing Practice" [level=1] [ref=e53]
+        - generic [ref=e55]:
+          - paragraph [ref=e56]:
+            - text: Below you see a table where columns and rows change their position upon page reload.
+            - text: Values in cells are random.
+            - link "Automation testing apps" [ref=e57] [cursor=pointer]:
+              - img [ref=e59] [cursor=pointer]
+              - generic [ref=e61] [cursor=pointer]: Automation testing apps
+          - heading "Scenario" [level=2] [ref=e62]
+          - list [ref=e63]:
+            - listitem [ref=e64]: For Chrome process get value of CPU load.
+            - listitem [ref=e65]: Compare it with value in the yellow label.
+          - heading "Playground" [level=2] [ref=e66]
+        - generic [ref=e68]:
+          - generic [ref=e69]: Task Manager
+          - table [ref=e71]:
+            - rowgroup [ref=e72]:
+              - row "Name Disk CPU Memory Network" [ref=e73]:
+                - cell "Name" [ref=e74]
+                - cell "Disk" [ref=e75]
+                - cell "CPU" [ref=e76]
+                - cell "Memory" [ref=e77]
+                - cell "Network" [ref=e78]
+            - rowgroup [ref=e79]:
+              - row "Firefox 0.2 MB/s 7.9% 61.2 MB 9 Mbps" [ref=e80]:
+                - cell "Firefox" [ref=e81]
+                - cell "0.2 MB/s" [ref=e82]
+                - cell "7.9%" [ref=e83]
+                - cell "61.2 MB" [ref=e84]
+                - cell "9 Mbps" [ref=e85]
+              - row "System 0.2 MB/s 6.4% 32.2 MB 8.7 Mbps" [ref=e86]:
+                - cell "System" [ref=e87]
+                - cell "0.2 MB/s" [ref=e88]
+                - cell "6.4%" [ref=e89]
+                - cell "32.2 MB" [ref=e90]
+                - cell "8.7 Mbps" [ref=e91]
+              - row "Chrome 0.5 MB/s 4.3% 58.7 MB 9.9 Mbps" [ref=e92]:
+                - cell "Chrome" [ref=e93]
+                - cell "0.5 MB/s" [ref=e94]
+                - cell "4.3%" [ref=e95]
+                - cell "58.7 MB" [ref=e96]
+                - cell "9.9 Mbps" [ref=e97]
+              - row "Internet Explorer 0.3 MB/s 9.7% 13.3 MB 3.7 Mbps" [ref=e98]:
+                - cell "Internet Explorer" [ref=e99]
+                - cell "0.3 MB/s" [ref=e100]
+                - cell "9.7%" [ref=e101]
+                - cell "13.3 MB" [ref=e102]
+                - cell "3.7 Mbps" [ref=e103]
+          - paragraph [ref=e104]: "Chrome CPU: 4.3%"
+    - insertion [ref=e106]:
+      - iframe [ref=e108]:
+        - iframe [ref=f5e1]:
+          - generic [ref=f6e1]:
+            - generic [ref=f6e2]:
+              - generic:
+                - img [ref=f6e6] [cursor=pointer]
+                - button [ref=f6e9] [cursor=pointer]:
+                  - img [ref=f6e10] [cursor=pointer]
+            - iframe [ref=f6e19] [cursor=pointer]:
+              - iframe [ref=f7e3] [cursor=pointer]:
+                
+  - contentinfo [ref=e109]:
+    - generic [ref=e114]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e115]
+      - paragraph [ref=e116]:
+        - text: "Version: 874f3178 | Copyright"
+        - link "Expand Testing" [ref=e117] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2025"
+  - img [ref=e119] [cursor=pointer]
+  - insertion [ref=e121]:
+    - iframe [ref=e124]:
+      - iframe [ref=f9e1]:
+        - generic [ref=f10e2]:
+          - iframe [ref=f10e5]:
+            - generic [active] [ref=f11e1]:
+              - img [ref=f11e3]
+              - generic [ref=f11e4]:
+                - img [ref=f11e9]
+                - generic [ref=f11e11]:
+                  - generic [ref=f11e12]: Generate the exact image you
+                  - generic [ref=f11e13]:
+                    - text: need
+                    - generic [ref=f11e14]: instantly instantly
+                    - generic [ref=f11e15]: with with
+                    - generic [ref=f11e16]: an an
+                    - generic [ref=f11e17]: AI AI
+                    - generic [ref=f11e18]: prompt prompt
+                  - generic [ref=f11e19]:
+                    - generic [ref=f11e20]: in in
+                    - img [ref=f11e22]
+                    - generic [ref=f11e24]: Docs Docs
+                    - generic [ref=f11e25]: and and
+                    - img [ref=f11e27]
+                    - generic [ref=f11e29]: Slides. Slides.
+                - generic [ref=f11e31] [cursor=pointer]:
+                  - img [ref=f11e32] [cursor=pointer]
+                  - img [ref=f11e35] [cursor=pointer]
+                  - generic [ref=f11e38] [cursor=pointer]: Sign up
+                - generic:
+                  - img
+              - img
+          - generic [ref=f10e6]:
+            - generic:
+              - img [ref=f10e10] [cursor=pointer]
+              - button [ref=f10e13] [cursor=pointer]:
+                - img [ref=f10e14] [cursor=pointer]
+```

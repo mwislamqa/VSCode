@@ -1,5 +1,6 @@
 
-const { test, expect } = require('@playwright/test')
+//const { test, expect } = require('@playwright/test')
+import { test , expect} from '@playwright/test';
 import { chromium } from 'playwright';
 
 test('playwight context test in plallal', async () => {
@@ -14,6 +15,6 @@ test('playwight context test in plallal', async () => {
     const page1 = await browserContext1.newPage()
 
     await page1.goto('https://www.facebook.com')
-    await page1.waitForTimeout(3000)
+    await page1.waitForTimeout(3000);
 
 })
