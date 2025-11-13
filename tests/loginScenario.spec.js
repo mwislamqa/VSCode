@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 
 test('login scenario', async ({ page }) => {
   // 1. Navigate to application
-   page.goto('https://www.saucedemo.com/');
+   await page.goto('https://www.saucedemo.com/');
 
   // 2. Enter username
   await page.getByPlaceholder('Username').fill('standard_user');
@@ -21,5 +21,5 @@ test('login scenario', async ({ page }) => {
   await expect(page).toHaveURL(/inventory/);
   await expect(page.getByText('Products')).toBeVisible();
 
-  await page.close();
+  //await page.close();
 });

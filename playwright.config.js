@@ -7,9 +7,8 @@ import { defineConfig, devices } from '@playwright/test';
  */
 import dotenv from 'dotenv';//for env veriable call
 import path from 'path';
-//require('dotenv').config()
 dotenv.config({
-  path: `./env/.${process.env.ENV}`
+  path: path.resolve(process.cwd(), `./env/.${process.env.ENV}`)
 });
 
 /**
@@ -57,16 +56,16 @@ export default defineConfig({
     //     channel: 'chrome'
     //    }
     // // },
-     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
-    },
-
-
-    // {
-    //   name: 'iphon',
-    //   use: { ...devices["iPhone 15 Pro Max"] },
+    //  {
+    //   name: 'chromium',
+    //   use: { ...devices['Desktop Chrome'] },
     // },
+
+
+    {
+      name: 'iphone15pro-max',
+      use: { ...devices["iPhone 14"] },
+    },
 
     // {
     //   name: 'webkit',

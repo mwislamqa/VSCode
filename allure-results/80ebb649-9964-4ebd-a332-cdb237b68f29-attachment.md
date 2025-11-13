@@ -1,0 +1,101 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1] [cursor=pointer]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic "Search settings" [ref=e4]:
+        - button "Main menu" [ref=e5]:
+          - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e10]: All
+        - link "Images" [ref=e11]:
+          - /url: https://www.google.com/webhp?sca_esv=2286498253ea9ec4&output=search&tbm=isch&tbo=u&sa=X&ved=0ahUKEwiPrp6gzOuQAxWyL1kFHeQYApcQ0tQDCAUoAQ
+      - link "Notifications" [ref=e14]:
+        - /url: https://iga.google.com/url?url=googleapp://notification-center?min-version%3D253&ifl=https://www.google.com/search/notifications&ct=ios.now.n.we.hpsignoutinbox&utm_campaign=ios.now.n.we.hpsignoutinbox&utm_source=ios.now.n.we.hpsignoutinbox&utm_medium=ios.now.n.we.hpsignoutinbox&hl=en
+        - img [ref=e16]
+      - generic [ref=e22]:
+        - button "Google apps" [ref=e26]:
+          - img [ref=e27]
+        - link "Sign in" [ref=e30]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/%3Fnoiga%3D1&ec=GAZAAQ
+    - generic [ref=e31]:
+      - generic [ref=e33]:
+        - link "Veterans Day 2025" [ref=e34]:
+          - /url: /search?q=Veterans+Day&oi=ddle&noiga=1&ct=396464388&hl=en&si=AMgyJEveiRpRWbYSNPkEPxCUbItHSvun4xkRgDDPLmrOjDx35BAOiF7Kh1zjgDP_moQSHC9jFWs6ijMDBIfaNPNbx2Bh5rOHrfquFhi20p44xaLB3VpCLj8OKE__VGOSzOUpiljmD8nVjeErT_PHYnI5pMJljTLOzbYpCcT5cm8Zokccf-iWbBM%3D&ictx=1&sa=X&ved=0ahUKEwiPrp6gzOuQAxWyL1kFHeQYApcQPQgO
+          - img "Veterans Day 2025" [ref=e35]
+        - generic:
+          - button "Share":
+            - img [ref=e40]
+      - generic [ref=e42]:
+        - search [ref=e44]:
+          - generic [ref=e47]:
+            - button "Google Search" [ref=e48]:
+              - img [ref=e51]
+            - combobox [ref=e53]:
+              - textbox "Google Search" [ref=e54]:
+                - /placeholder: ""
+            - generic [ref=e55]:
+              - button "Search by voice" [ref=e56]:
+                - img "Search by voice" [ref=e57]
+              - link "Search using your camera or photos" [ref=e60]:
+                - /url: https://search.app.goo.gl/?ofl=https%3A%2F%2Flens.google&al=googleapp%3A%2F%2Flens%3Flens_data%3DKAw&apn=com.google.android.googlequicksearchbox&amv=301103376&isi=284815942&ius=googleapp&ibi=com.google.GoogleMobile&link=https%3A%2F%2Fgoo.gl%2Fiosgoogleapp%2Fdefault%3Furl%3Dgoogleapp%253A%252F%252Flens%253Fmin-version%253D180%2526lens_data%253DKAw&ifl=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fgoogle%2Fid284815942%3Fppid%3D1ac8cc35-d99c-4a1d-b909-321c8968cc74%26pt%3D9008%26mt%3D8%26ct%3D4740761-oo-lens-sb-bar-lens-cam%26UTM_campaign%3Dgoogle_search_mweb&efr=1&ct=4740761-oo-lens-sb-bar-lens-cam&utm_campaign=4740761-oo-lens-sb-bar-lens-cam&utm_source=google_search_mweb&utm_medium=owned&pt=9008&mt=8
+                - img [ref=e61]
+        - link "We help veterans build job-ready skills" [ref=e72]
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - heading "Trending searches" [level=1] [ref=e76]
+            - button "More options" [ref=e79]:
+              - img [ref=e82]
+          - list [ref=e84]:
+            - link "northern lights aurora borealis forecast" [ref=e85]:
+              - link "northern lights aurora borealis forecast" [ref=e86]:
+                - /url: /search?q=northern%20lights%20aurora%20borealis%20forecast&oq&ved=0ahUKEwiPrp6gzOuQAxWyL1kFHeQYApcQ470GCC8&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgAEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD9wmyBgYQLhguKAE&gs_ss=1
+                - img [ref=e88]
+                - generic [ref=e91]: northern lights aurora borealis forecast
+            - link "toy story 5 teaser trailer pixar" [ref=e92]:
+              - link "toy story 5 teaser trailer pixar" [ref=e93]:
+                - /url: /search?q=toy%20story%205%20teaser%20trailer%20pixar&oq&ved=0ahUKEwiPrp6gzOuQAxWyL1kFHeQYApcQ470GCC8&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgBEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD9wmyBgYQLhguKAE&gs_ss=1
+                - img [ref=e95]
+                - generic [ref=e98]: toy story 5 teaser trailer pixar
+            - link "military discounts veterans day" [ref=e99]:
+              - link "military discounts veterans day" [ref=e100]:
+                - /url: /search?q=military%20discounts%20veterans%20day&oq&ved=0ahUKEwiPrp6gzOuQAxWyL1kFHeQYApcQ470GCC8&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgCEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD9wmyBgYQLhguKAE&gs_ss=1
+                - img [ref=e102]
+                - generic [ref=e105]: military discounts veterans day
+            - link "elden ring nightreign forsaken hollows" [ref=e106]:
+              - link "elden ring nightreign forsaken hollows" [ref=e107]:
+                - /url: /search?q=elden%20ring%20nightreign%20forsaken%20hollows&oq&ved=0ahUKEwiPrp6gzOuQAxWyL1kFHeQYApcQ470GCC8&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgDEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD9wmyBgYQLhguKAE&gs_ss=1
+                - img [ref=e109]
+                - generic [ref=e112]: elden ring nightreign forsaken hollows
+            - link "playstation state of play announcements" [ref=e113]:
+              - link "playstation state of play announcements" [ref=e114]:
+                - /url: /search?q=playstation%20state%20of%20play%20announcements&oq&ved=0ahUKEwiPrp6gzOuQAxWyL1kFHeQYApcQ470GCC8&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgEEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD9wmyBgYQLhguKAE&gs_ss=1
+                - img [ref=e116]
+                - generic [ref=e119]: playstation state of play announcements
+            - link "iphone pocket issey miyake" [ref=e120]:
+              - link "iphone pocket issey miyake" [ref=e121]:
+                - /url: /search?q=iphone%20pocket%20issey%20miyake&oq&ved=0ahUKEwiPrp6gzOuQAxWyL1kFHeQYApcQ470GCC8&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgFEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD9wmyBgYQLhguKAE&gs_ss=1
+                - img [ref=e123]
+                - generic [ref=e126]: iphone pocket issey miyake
+            - link "irs direct deposit" [ref=e127]:
+              - link "irs direct deposit" [ref=e128]:
+                - /url: /search?q=irs%20direct%20deposit&oq&ved=0ahUKEwiPrp6gzOuQAxWyL1kFHeQYApcQ470GCC8&sclient=mweb-insp&gs_lp=Egltd2ViLWluc3AqDwgGEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBDINEAAYAxjqAhiPARiWBLgBGZgD9wmyBgYQLhguKAE&gs_ss=1
+                - img [ref=e130]
+                - generic [ref=e133]: irs direct deposit
+    - generic [ref=e137]:
+      - 'link "Dark theme: off" [ref=e138]':
+        - /url: "#"
+      - button "Settings" [ref=e142]
+      - link "Privacy" [ref=e143]:
+        - /url: https://policies.google.com/privacy?hl=en&fg=1
+      - link "Terms" [ref=e144]:
+        - /url: https://policies.google.com/terms?hl=en&fg=1
+  - generic [ref=e146]:
+    - link "Advertising" [ref=e147]:
+      - /url: https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+    - link "Business" [ref=e148]:
+      - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+    - link "About" [ref=e149]:
+      - /url: https://about.google/?utm_source=google-US&utm_medium=referral&utm_campaign=hp-footer&fg=1
+```

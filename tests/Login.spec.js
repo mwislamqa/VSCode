@@ -1,7 +1,7 @@
 //const {test,expect}= require('@playwright/test')
 import { test , expect} from '@playwright/test';
 import { Console } from 'console'
-import {data} from '../e2e/data/loginData.json'
+import {data} from '../e2e/data/loginData.json' assert { type: 'json' };
 
 test('login to the app', async ({page}) =>{
    

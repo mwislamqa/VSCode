@@ -1,9 +1,9 @@
-const { test, expect } = require('@playwright/test')
-
+//const { test, expect } = require('@playwright/test')
+import {test, expect} from '@playwright/test';
 import dotenv from 'dotenv';
 import path from 'path';
-dotenv.config({ path: path.resolve(__dirname, '..', 'confiq.env') });
-exports.LognPage =
+//dotenv.config({ path: path.resolve(__dirname, '..', 'confiq.env') });
+//exports.LognPage =
     class LognPage {
 
         constructor(page) {
@@ -47,3 +47,4 @@ exports.LognPage =
 
 
     }
+    export { LognPage };

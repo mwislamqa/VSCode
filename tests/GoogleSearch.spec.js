@@ -19,13 +19,13 @@ test('google search', async ({ page }) => {
 
   // await page.waitForTimeout(2000)
   // //await  locator.fill('Enter')
-   
+
   await page.goto('https://www.google.com/');
 
-  await page.getByRole('combobox', { name: 'Search' }).fill('playwright test');
-   await page.waitForTimeout(4000)
+  await page.locator('[name=q]').fill('playwright test');
+  await page.waitForTimeout(4000)
   await page.locator('[name=q]').press("Enter")
- 
+  //await page.pause()
 
 })
 
