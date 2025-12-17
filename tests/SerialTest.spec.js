@@ -9,15 +9,15 @@ let page;
 test.beforeAll(async ({ browser }) => {
   // create a page from the provided browser fixture
   page = await browser.newPage();
+    await page.goto('https://playwright.dev/');
 });
-test.afterAll(async () => {
-    await page.close();
+
 test.afterAll(async () => {
     if (page)
         await page.close();
 });
-    await page.goto('https://playwright.dev/');
-});
+   
+
 
 test('runs second', async () => {
     await page.getByText('Get Started').click();

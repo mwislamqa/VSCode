@@ -15,7 +15,7 @@ test.describe('my login test', () => {
         page.close()
     })
 
-    test.only('First test -add to the cart', async ({ page }) => {
+    test('First test -add to the cart', async ({ page }) => {
         //combind tow elements in one locator using and ,or 
         await page.locator('#add-to-cart-sauce-labs-backpack')
         .or(page.locator("[name='add-to-cart-sauce-labs-backpack']")).click()

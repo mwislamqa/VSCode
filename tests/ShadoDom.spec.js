@@ -5,6 +5,7 @@
 import { test , expect} from '@playwright/test';
 
 test('shaddow dom', async ({ page }) => {
+    
     await page.goto('https://books-pwakit.appspot.com/')
     //firt way to access shadow dom
     //await page.locator("book-app[apptitle='BOOKS'] #input").fill('Selenium');

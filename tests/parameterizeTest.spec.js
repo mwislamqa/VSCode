@@ -36,8 +36,6 @@ for (const [index, data] of loginData.entries()) {
 
     test(`login again and again ${data.username} [#index${index}]`, async ({ page }) => {
 
-
-
         // 1. Navigate to application
         await page.goto('https://www.saucedemo.com/');
 

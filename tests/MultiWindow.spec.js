@@ -27,6 +27,7 @@ test('multi window ', async () => {
 
   // Switch back to the original page
   await page.bringToFront();
+  await page.goBack();
 
 
 

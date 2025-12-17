@@ -16,6 +16,7 @@ dotenv.config({
  */
 export default defineConfig({
   testDir: './tests',
+   //testDir: './test1',
   //timeout: 10_1000,
   globalTimeout: 3_600_000,
   /* Run tests in files in parallel */
@@ -36,11 +37,20 @@ export default defineConfig({
   ["allure-playwright", { outputFolder: 'allure-results' }]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+colorScheme: 'dark',
+    // Grants specified permissions to the browser context.
+    //permissions: ['notifications'],
+
+    // Emulates the browser locale.
+    //locale: 'en-GB',
+
+    // Emulates the browser timezone.
+    //timezoneId: 'America/Hartford',
     /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: 'https://playwright.dev/',
     actionTimeout: 10 * 1000,
     navigationTimeout: 30 * 1000,
-
+    //offline: true, //to run offline mode phone network off
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
@@ -56,16 +66,18 @@ export default defineConfig({
     //     channel: 'chrome'
     //    }
     // // },
-    //  {
-    //   name: 'chromium',
-    //   use: { ...devices['Desktop Chrome'] },
+     {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
+    }
+
+
+    // {
+    //   name: 'iphone15pro-max',
+    //   use: { ...devices["iPhone 14"] },
+
+      
     // },
-
-
-    {
-      name: 'iphone15pro-max',
-      use: { ...devices["iPhone 14"] },
-    },
 
     // {
     //   name: 'webkit',

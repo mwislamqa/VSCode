@@ -38,15 +38,8 @@ test.only('handle dropdown ', async ({ page }) => {
   await page.selectOption("#year", [{ value: '1990' }, { value: '2000' }, { value: '1993' }])
   await expect(page.locator("#year")).toHaveValues(['1990', '2000', '1993'])
 
-
-
-
-
 await page.close()
    
-  
-
-
 
 })
 //})
